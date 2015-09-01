@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Aug 27 07:29:17 COT 2015
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Milton\\.m2\\repository\\org\\springframework\\spring-web\\4.1.1.RELEASE\\spring-web-4.1.1.RELEASE.jar=C\:\\sts-bundle\\vfabric-tc-server-developer-2.9.6.RELEASE\\base-instance\\wtpwebapps\\mvc_simple\\WEB-INF\\lib\\spring-web-4.1.1.RELEASE.jar
+org.eclipse.jst.jee.server\:mvc_simple=C\:\\sts-bundle\\vfabric-tc-server-developer-2.9.6.RELEASE\\base-instance\\wtpwebapps\\mvc_simple

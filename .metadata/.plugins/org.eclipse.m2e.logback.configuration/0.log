@@ -1,0 +1,78 @@
+2015-08-27 06:53:24,203 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: mvc_simple:mvc_simple:0.0.1-SNAPSHOT @ C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\pom.xml.
+2015-08-27 06:53:27,685 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 06:53:27,699 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\main\resources
+2015-08-27 06:53:27,703 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 06:53:27,715 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\test\resources
+2015-08-27 06:53:27,748 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mvc_simple/src
+2015-08-27 06:53:27,749 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /mvc_simple/src/test/java because it overlaps with /mvc_simple/src
+2015-08-27 06:53:28,336 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-08-27 06:53:28,455 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: mvc_simple:mvc_simple:0.0.1-SNAPSHOT @ C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\pom.xml.
+2015-08-27 06:53:28,650 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mvc_simple/src
+2015-08-27 06:53:28,650 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /mvc_simple/src/test/java because it overlaps with /mvc_simple/src
+2015-08-27 06:53:28,997 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: mvc_simple:mvc_simple:0.0.1-SNAPSHOT @ C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\pom.xml.
+2015-08-27 06:53:29,099 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 06:53:29,107 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\main\resources
+2015-08-27 06:53:29,109 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 06:53:29,120 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\test\resources
+2015-08-27 06:53:29,124 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mvc_simple
+2015-08-27 06:53:29,125 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mvc_simple
+2015-08-27 06:53:29,220 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 06:53:29,491 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: mvc_simple:mvc_simple:0.0.1-SNAPSHOT @ C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\pom.xml.
+2015-08-27 06:53:29,591 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for mvc_simple
+2015-08-27 06:53:29,623 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-08-27 06:53:30,277 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 06:53:30,288 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\main\resources
+2015-08-27 06:53:30,295 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 06:53:30,306 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\test\resources
+2015-08-27 06:58:33,612 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: mvc_simple:mvc_simple:0.0.1-SNAPSHOT @ C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\pom.xml.
+2015-08-27 06:58:34,150 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 06:58:34,160 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\main\resources
+2015-08-27 06:58:34,165 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 06:58:34,178 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\test\resources
+2015-08-27 06:58:34,179 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mvc_simple
+2015-08-27 06:58:34,183 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mvc_simple
+2015-08-27 06:58:34,188 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:04:04,065 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: mvc_simple:mvc_simple:0.0.1-SNAPSHOT @ C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\pom.xml.
+2015-08-27 07:04:04,279 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:04:04,285 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\main\resources
+2015-08-27 07:04:04,286 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:04:04,290 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\test\resources
+2015-08-27 07:04:04,290 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mvc_simple
+2015-08-27 07:04:04,294 [Worker-26] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mvc_simple
+2015-08-27 07:04:04,298 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:04:59,784 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: mvc_simple:mvc_simple:0.0.1-SNAPSHOT @ C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\pom.xml.
+2015-08-27 07:05:00,045 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:05:00,053 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\main\resources
+2015-08-27 07:05:00,057 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:05:00,064 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\test\resources
+2015-08-27 07:05:00,064 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mvc_simple
+2015-08-27 07:05:00,068 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mvc_simple
+2015-08-27 07:05:00,073 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:11:54,368 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: mvc_simple:mvc_simple:0.0.1-SNAPSHOT @ C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\pom.xml.
+2015-08-27 07:11:54,635 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:11:54,639 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\main\resources
+2015-08-27 07:11:54,640 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:11:54,644 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\test\resources
+2015-08-27 07:11:54,644 [Worker-36] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mvc_simple
+2015-08-27 07:11:54,648 [Worker-36] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mvc_simple
+2015-08-27 07:11:54,652 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:12:55,354 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: mvc_simple:mvc_simple:0.0.1-SNAPSHOT @ C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\pom.xml.
+2015-08-27 07:12:55,556 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:12:55,563 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\main\resources
+2015-08-27 07:12:55,568 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:12:55,575 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\test\resources
+2015-08-27 07:12:55,576 [Worker-37] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mvc_simple
+2015-08-27 07:12:55,579 [Worker-37] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mvc_simple
+2015-08-27 07:12:55,582 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:26:10,714 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:26:10,718 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\main\resources
+2015-08-27 07:26:10,720 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:26:10,723 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\test\resources
+2015-08-27 07:27:07,824 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:27:07,829 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\main\resources
+2015-08-27 07:27:07,836 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:27:07,841 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\test\resources
+2015-08-27 07:27:32,929 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:27:32,933 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\main\resources
+2015-08-27 07:27:32,938 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-27 07:27:32,948 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Milton\Documents\GitHub\mvc-simple\mvc_simple\src\test\resources
