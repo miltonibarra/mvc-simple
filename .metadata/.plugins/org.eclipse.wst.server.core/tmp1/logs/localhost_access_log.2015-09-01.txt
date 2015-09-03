@@ -1,0 +1,6 @@
+127.0.0.1 - - [01/Sep/2015:07:21:37 -0500] "GET / HTTP/1.1" 404 1004
+0:0:0:0:0:0:0:1 - - [01/Sep/2015:07:21:39 -0500] "GET /mvc_simple/ HTTP/1.1" 200 27484
+0:0:0:0:0:0:0:1 - - [01/Sep/2015:07:21:39 -0500] "GET /mvc_simple/font-awesome/css/font-awesome.min.css HTTP/1.1" 404 1100
+0:0:0:0:0:0:0:1 - - [01/Sep/2015:07:26:38 -0500] "GET /mvc_simple/ HTTP/1.1" 200 27484
+0:0:0:0:0:0:0:1 - - [01/Sep/2015:07:26:38 -0500] "GET /mvc_simple/font-awesome/css/font-awesome.min.css HTTP/1.1" 404 1100
+0:0:0:0:0:0:0:1 - - [01/Sep/2015:07:26:39 -0500] "GET /favicon.ico HTTP/1.1" 404 1026
