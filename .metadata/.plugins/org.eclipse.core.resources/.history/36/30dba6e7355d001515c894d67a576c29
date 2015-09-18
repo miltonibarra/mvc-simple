@@ -1,0 +1,5 @@
+package co.com.hobbies.servicios;
+
+public interface SesionServicesInterface {
+
+}

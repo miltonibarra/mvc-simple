@@ -1,0 +1,22 @@
+package co.com.hobbies.servicios;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import co.com.hobbies.modelo.SesionDTO;
+
+/**
+ * Recuperar la informacion de los objetos sesion que se muestran en la pantalla
+ * @author Milton
+ */
+public class RecuperarSesion implements SesionServicesInterface {
+
+	public List<SesionDTO> getSesiones() {
+		List<SesionDTO> sesionList = new ArrayList<SesionDTO>();
+		
+		SesionDTO sesion = new SesionDTO();
+		sesion.setTitulo("Entretenimiento");
+		sesion.setImagen("resources/img/portfolio/entretenimiento.jpg");
+		return sesion;
+	}
+}

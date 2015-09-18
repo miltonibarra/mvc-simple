@@ -1,0 +1,22 @@
+package co.com.hobbies.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+import co.com.hobbies.portada.Sesion;
+import co.com.hobbies.servicios.RecuperarSesion;
+
+@Controller
+public class SesionController {
+	
+	@RequestMapping(value = "/sesion", method = RequestMethod.GET)
+	public ModelAndView inicioSesiones() {
+		RecuperarSesion rSesion = new RecuperarSesion();
+		
+		ModelAndView modelAndView = new ModelAndView("index", "sesionobj", rSesion.getSesiones());
+		return modelAndView;
+	}
+
+}

@@ -1,0 +1,17 @@
+package co.com.hobbies.servicios;
+
+import co.com.hobbies.modelo.SesionDTO;
+
+/**
+ * Recuperar la informacion de los objetos sesion que se muestran en la pantalla
+ * @author Milton
+ */
+public class RecuperarSesion implements SesionServicesInterface {
+
+	public SesionDTO getSesiones() {
+		SesionDTO sesion = new SesionDTO();
+		sesion.setTitulo("Entretenimiento");
+		sesion.setImagen("resources/img/portfolio/entretenimiento.jpg");
+		return sesion;
+	}
+}
