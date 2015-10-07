@@ -1,0 +1,50 @@
+package co.com.hobbies.servicios;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import co.com.udem.hobbies.jdbc.dao.JDBCSesionDAO;
+import co.com.udem.hobbies.jdbc.dao.SesionDAO;
+import co.com.udem.hobbies.jdbc.entities.Sesion;
+import co.com.udem.hobbies.jdbc.model.SesionDTO;
+
+/**
+ * Recuperar la informacion de los objetos sesion que se muestran en la pantalla
+ * @author Milton
+ */
+public class SesionServicesImplLocal implements SesionServicesInterface {
+
+	public List<SesionDTO> getSesiones() {
+		/** Crear la lista */
+		List<SesionDTO> sesionList = new ArrayList<SesionDTO>();
+		
+		SesionDAO sesionDAO = new JDBCSesionDAO();
+		List<Sesion> sesions = sesionDAO.getSesionList();
+		for (Sesion sesion : sesions) {
+			/** Creando un objeto de la lista de tipo sesionDTO */
+			SesionDTO sesionDTO = new SesionDTO();
+			sesionDTO.setTitulo(sesion.getTitulo());
+			sesionDTO.setImagen(sesion.getImagen());
+			
+			sesionList.add(sesionDTO);
+		}
+		
+//		/** Creando un objeto de la lista de tipo sesionDTO */
+//		SesionDTO sesion = new SesionDTO();
+//		sesion.setTitulo("Entretenimiento");
+//		sesion.setImagen("resources/img/portfolio/entretenimiento.jpg");
+//		
+//		/** Adicionando el objeto a la lista */
+//		sesionList.add(sesion);
+//		
+//		/** Creando un objeto de la lista de tipo sesionDTO */
+//		SesionDTOold sesion2 = new SesionDTOold();
+//		sesion2.setTitulo("Cursos");
+//		sesion2.setImagen("resources/img/portfolio/cursos.jpg");
+//		
+//		/** Adicionando el objeto a la lista */
+//		sesionList.add(sesion2);
+		
+		return sesionList;
+	}
+}

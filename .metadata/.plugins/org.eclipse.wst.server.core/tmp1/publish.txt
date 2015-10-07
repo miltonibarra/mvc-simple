@@ -1,3 +1,4 @@
 #Tomcat publish data
-#Thu Sep 17 07:35:06 COT 2015
+#Tue Oct 06 23:34:52 COT 2015
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Milton\\.m2\\repository\\org\\springframework\\spring-web\\4.1.1.RELEASE\\spring-web-4.1.1.RELEASE.jar=WEB-INF/lib/spring-web-4.1.1.RELEASE.jar
+org.eclipse.jst.j2ee.server\:mvc_jdbc=WEB-INF/lib/mvc_jdbc-0.0.1-SNAPSHOT.jar

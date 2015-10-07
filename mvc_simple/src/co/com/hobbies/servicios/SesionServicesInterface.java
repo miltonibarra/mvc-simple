@@ -2,7 +2,7 @@ package co.com.hobbies.servicios;
 
 import java.util.List;
 
-import co.com.hobbies.modelo.SesionDTO;
+import co.com.hobbies.jdbc.model.SesionDTO;
 
 /**
  * Interface en donde se definen los serivicios disponibles para recuperar los objetos sesion

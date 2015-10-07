@@ -7,8 +7,20 @@
 <fullyQualifiedTypeName name="co.com.hobbies.portada.Sesion"/>
 <fullyQualifiedTypeName name="co.com.hobbies.servicios.RecuperarSesion"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="co.com.hobbies.modelo.SesionDTO"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="co.com.hobbies.servicios.SesionServicesInterface"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="co.com.udem.hobbies.jdbc.dao.SesionDAO"/>
+<fullyQualifiedTypeName name="co.com.udem.hobbies.jdbc.dao.JDBCSesionDAO"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="co.com.udem.hobbies.jdbc.model.Sesion"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="co.com.udem.hobbies.jdbc.entities.Sesion"/>
+<fullyQualifiedTypeName name="co.com.udem.hobbies.jdbc.model.SesionDTO"/>
+<fullyQualifiedTypeName name="co.com.hobbies.modelo.SesionDTOold"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 </qualifiedTypeNameHistroy>

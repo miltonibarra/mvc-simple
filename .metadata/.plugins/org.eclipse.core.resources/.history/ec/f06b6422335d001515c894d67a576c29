@@ -1,9 +1,0 @@
-package co.com.hobbies.servicios;
-
-/**
- * Recuperar la informacion de los objetos sesion que se muestran en la pantalla
- * @author Milton
- */
-public class RecuperarSesion {
-
-}
