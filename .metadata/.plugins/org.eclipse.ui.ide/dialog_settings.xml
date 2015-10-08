@@ -118,20 +118,20 @@
 		<item value="org.sonatype.m2e.buildhelper.feature:0.15.0.201207090124"/>
 		<item value="org.sonatype.m2e.egit.feature:0.14.0.201401060023"/>
 		<item value="org.sonatype.m2e.mavenarchiver.feature:0.16.0.201401211452-signed-20140310144306"/>
-		<item value="org.springframework.ide.eclipse.ajdt.feature:3.7.0.201506251244-RELEASE"/>
-		<item value="org.springframework.ide.eclipse.aop.feature:3.7.0.201506251244-RELEASE"/>
-		<item value="org.springframework.ide.eclipse.autowire.feature:3.7.0.201506251244-RELEASE"/>
-		<item value="org.springframework.ide.eclipse.batch.feature:3.7.0.201506251244-RELEASE"/>
-		<item value="org.springframework.ide.eclipse.data.feature:3.7.0.201506251244-RELEASE"/>
-		<item value="org.springframework.ide.eclipse.feature:3.7.0.201506251244-RELEASE"/>
-		<item value="org.springframework.ide.eclipse.integration.feature:3.7.0.201506251244-RELEASE"/>
-		<item value="org.springframework.ide.eclipse.maven.feature:3.7.0.201506251244-RELEASE"/>
-		<item value="org.springframework.ide.eclipse.mylyn.feature:3.7.0.201506251244-RELEASE"/>
-		<item value="org.springframework.ide.eclipse.security.feature:3.7.0.201506251244-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.ajdt.feature:3.7.1.201510041102-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.aop.feature:3.7.1.201510041102-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.autowire.feature:3.7.1.201510041102-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.batch.feature:3.7.1.201510041102-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.data.feature:3.7.1.201510041102-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.feature:3.7.1.201510041102-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.integration.feature:3.7.1.201510041102-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.maven.feature:3.7.1.201510041102-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.mylyn.feature:3.7.1.201510041102-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.security.feature:3.7.1.201510041102-RELEASE"/>
 		<item value="org.springframework.ide.eclipse.uaa.feature:3.6.0.201407080544-RELEASE"/>
-		<item value="org.springframework.ide.eclipse.webflow.feature:3.7.0.201506251244-RELEASE"/>
-		<item value="org.springsource.sts.package:3.7.0.201506290649-RELEASE-e44"/>
-		<item value="org.springsource.sts:3.7.0.201506290649-RELEASE"/>
+		<item value="org.springframework.ide.eclipse.webflow.feature:3.7.1.201510041102-RELEASE"/>
+		<item value="org.springsource.sts.package:3.7.1.201510041210-RELEASE-e44"/>
+		<item value="org.springsource.sts:3.7.1.201510041210-RELEASE"/>
 	</list>
 	<section name="CleanDialogSettings">
 		<item value="500" key="DIALOG_WIDTH"/>
