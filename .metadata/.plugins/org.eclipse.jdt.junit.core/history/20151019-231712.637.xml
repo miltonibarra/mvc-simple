@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="JPASesionDAOTest.testGetSesionList" project="mvc_jpa" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="testGetSesionList" classname="co.com.hobbies.jpa.dao.JPASesionDAOTest" time="1.884"/>
+</testrun>

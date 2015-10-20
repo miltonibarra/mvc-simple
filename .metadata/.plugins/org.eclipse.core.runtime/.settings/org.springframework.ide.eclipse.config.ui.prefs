@@ -5,5 +5,6 @@
 //com.springsource.config.ui.prefs.activePageIndex\:/mvc_jdbc/src/main/resources/customer/Spring-Customer.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/mvc_jdbc/src/main/resources/database/Spring-Datasource.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/mvc_jdbc/src/main/resources/sesion/Spring-Sesion.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/mvc_jpa/src/main/resources/database/Spring-Datasource.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/mvc_simple/WebContent/WEB-INF/inicio-servlet.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 eclipse.preferences.version=1

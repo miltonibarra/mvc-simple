@@ -1,0 +1,47 @@
+package co.com.hobbies.jpa.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.PersistenceContext;
+import javax.sql.DataSource;
+
+import org.springframework.stereotype.Repository;
+
+import co.com.hobbies.jpa.entities.Sesion;
+
+@Repository
+public class JPASesionDAO implements SesionDAO {
+  
+  @PersistenceContext
+  private EntityManager em = null;
+  
+//  private EntityManagerFactory factory = null;
+
+
+  /** Datasource con la conexion a la base de datos */
+  private DataSource dataSource;
+
+  /**
+   * Establece la conexion a la base de datos a partir del Datasource
+   * 
+   * @param dataSource
+   */
+  public void setDataSource(DataSource dataSource) {
+    this.dataSource = dataSource;
+  }
+  
+  public boolean insert(Sesion sesion) {
+    return false;
+  }
+
+  public Sesion findSesionById(int sesionId) {
+    return null;
+  }
+
+  public List<Sesion> getSesionList() {
+    return em.createQuery("SELECT s FROM Sesion s ORDER BY s.id").getResultList();
+  }
+
+}

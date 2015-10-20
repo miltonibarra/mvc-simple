@@ -1,0 +1,27 @@
+package co.com.hobbies.jpa.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+
+import co.com.hobbies.jpa.entities.Sesion;
+
+public class JPASesionDAO implements SesionDAO {
+  
+  private EntityManager em = null;
+  private EntityManagerFactory factory = null;
+
+  public boolean insert(Sesion sesion) {
+    return false;
+  }
+
+  public Sesion findSesionById(int sesionId) {
+    return null;
+  }
+
+  public List<Sesion> getSesionList() {
+    return null;
+  }
+
+}
