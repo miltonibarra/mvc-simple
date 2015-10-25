@@ -3,6 +3,7 @@ package co.com.hobbies.jpa.dao;
 import java.util.List;
 
 import co.com.hobbies.jpa.entities.Sesion;
+import co.com.hobbies.jpa.model.SesionDTO;
 
 /**
  * Se definen los servicios para acceder a la base de datos
@@ -29,4 +30,17 @@ public interface SesionDAO {
 	 * @return
 	 */
 	public List<Sesion> getSesionList();
+	
+	 /**
+   * Obtiene todas las sesiones que se mostraran
+   * @return
+   */
+  public List<SesionDTO> getSesionDTOList();
+  
+  /**
+  * Obtiene todas las sesiones que se mostraran
+  * @return
+  */
+ public List<SesionDTO> getTitulosSesionDTOList();
+
 }

@@ -6,12 +6,13 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="Spring-Datasource.xml" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="Spring-Datasource.xml"/>
 			<item value="#183ABC"/>
 			<item value="#18bc9c"/>
 			<item value="#18bc"/>
@@ -19,7 +20,6 @@
 			<item value="color"/>
 			<item value="caption-content"/>
 			<item value="fa-search-plus"/>
-			<item value="ot"/>
 		</list>
 		<list key="replacehistory">
 			<item value="#183ABC"/>
@@ -35,7 +35,7 @@
 		<item value="257" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="329" key="DIALOG_HEIGHT"/>
-		<item value="838" key="DIALOG_X_ORIGIN"/>
-		<item value="262" key="DIALOG_Y_ORIGIN"/>
+		<item value="540" key="DIALOG_X_ORIGIN"/>
+		<item value="267" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

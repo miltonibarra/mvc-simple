@@ -12,6 +12,7 @@ import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import co.com.hobbies.jpa.entities.Sesion;
+import co.com.hobbies.jpa.model.SesionDTO;
 
 public class JPASesionDAOTest {
 
@@ -53,5 +54,17 @@ public class JPASesionDAOTest {
     
     context.close();
   }
-
+  
+  @Test
+  public void testGetSesionDTOList() {
+    ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("Spring-Datasource.xml");
+    SesionDAO sesionDAO = context.getBean(SesionDAO.class);
+    
+    List<SesionDTO> sesionDTOList = sesionDAO.getSesionDTOList();
+    for (SesionDTO sesionDTO : sesionDTOList) {
+      System.out.println(sesionDTO.getTitulo() + " " + sesionDTO.getImagen());
+    }
+    
+    context.close();
+  }
 }
