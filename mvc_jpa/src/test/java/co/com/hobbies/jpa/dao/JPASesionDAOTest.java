@@ -11,8 +11,8 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import co.com.hobbies.jpa.entities.Sesion;
-import co.com.hobbies.jpa.model.SesionDTO;
+import co.com.hobbies.dao.SesionDAO;
+import co.com.hobbies.model.SesionDTO;
 
 public class JPASesionDAOTest {
 
@@ -44,11 +44,11 @@ public class JPASesionDAOTest {
 
   @Test
   public void testGetSesionList() {
-    ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("Spring-Datasource.xml");
+    ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("Spring-Datasource-JPA.xml");
     SesionDAO sesionDAO = context.getBean(SesionDAO.class);
     
-    List<Sesion> sesionList = sesionDAO.getSesionList();
-    for (Sesion sesion : sesionList) {
+    List<SesionDTO> sesionList = sesionDAO.getSesionList();
+    for (SesionDTO sesion : sesionList) {
       System.out.println(sesion.getTitulo() + " " + sesion.getImagen());
     }
     
@@ -57,7 +57,7 @@ public class JPASesionDAOTest {
   
   @Test
   public void testGetSesionDTOList() {
-    ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("Spring-Datasource.xml");
+    ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("Spring-Datasource-JPA.xml");
     SesionDAO sesionDAO = context.getBean(SesionDAO.class);
     
     List<SesionDTO> sesionDTOList = sesionDAO.getSesionDTOList();

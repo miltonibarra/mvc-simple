@@ -6,20 +6,20 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Spring-Datasource.xml" key="selection"/>
+		<item value="SesionDTOList" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="sesionDTOList"/>
+			<item value="SesionDTOList"/>
 			<item value="Spring-Datasource.xml"/>
 			<item value="#183ABC"/>
 			<item value="#18bc9c"/>
 			<item value="#18bc"/>
 			<item value="#18"/>
 			<item value="color"/>
-			<item value="caption-content"/>
-			<item value="fa-search-plus"/>
 		</list>
 		<list key="replacehistory">
 			<item value="#183ABC"/>

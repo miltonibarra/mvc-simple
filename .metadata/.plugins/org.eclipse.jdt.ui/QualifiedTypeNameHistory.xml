@@ -32,12 +32,17 @@
 <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
 <fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-<fullyQualifiedTypeName name="co.com.hobbies.jpa.entities.Sesion"/>
 <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
-<fullyQualifiedTypeName name="co.com.hobbies.jpa.dao.SesionDAO"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="co.com.hobbies.jpa.model.SesionDTO"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="co.com.hobbies.jpa.dao.SesionDAO"/>
+<fullyQualifiedTypeName name="co.com.hobbies.jpa.model.SesionDTO"/>
+<fullyQualifiedTypeName name="co.com.hobbies.jpa.entities.Sesion"/>
+<fullyQualifiedTypeName name="co.com.hobbies.jdbc.model.SesionDTO"/>
+<fullyQualifiedTypeName name="co.com.hobbies.dao.SesionDAO"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.ListView"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="co.com.hobbies.model.SesionDTO"/>
+<fullyQualifiedTypeName name="co.com.hobbies.services.HobbiesFacade"/>
 </qualifiedTypeNameHistroy>

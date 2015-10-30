@@ -1,0 +1,13 @@
+package co.com.hobbies.services;
+
+import java.util.List;
+
+import co.com.hobbies.model.SesionDTO;
+
+public class HobbiesFacade {
+  
+  public List<SesionDTO> getFirstSesionDTOFromIndex() {
+    
+  }
+
+}

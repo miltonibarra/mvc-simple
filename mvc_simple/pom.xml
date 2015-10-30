@@ -66,5 +66,10 @@
   		<artifactId>mvc_jdbc</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
+  	<dependency>
+  		<groupId>mvc_jpa</groupId>
+  		<artifactId>mvc_jpa</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>  	
   </dependencies>
 </project>

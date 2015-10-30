@@ -8,8 +8,8 @@ import javax.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import co.com.hobbies.jpa.entities.Sesion;
-import co.com.hobbies.jpa.model.SesionDTO;
+import co.com.hobbies.dao.SesionDAO;
+import co.com.hobbies.model.SesionDTO;
 
 @Repository
 public class JPASesionDAO implements SesionDAO {
@@ -17,17 +17,14 @@ public class JPASesionDAO implements SesionDAO {
   @PersistenceContext
   private EntityManager em = null;
   
-  public boolean insert(Sesion sesion) {
-    return false;
-  }
 
-  public Sesion findSesionById(int sesionId) {
+  public SesionDTO findSesionById(int sesionId) {
     return null;
   }
 
   @Transactional
-  public List<Sesion> getSesionList() {
-    List<Sesion> sesionList = em.createQuery("SELECT s FROM Sesion s ORDER BY s.id").getResultList(); 
+  public List<SesionDTO> getSesionList() {
+    List<SesionDTO> sesionList = em.createQuery(queryBuilder("s.titulo", "s.imagen")).getResultList(); 
     return sesionList;
   }
 
@@ -45,7 +42,7 @@ public class JPASesionDAO implements SesionDAO {
   
   private String queryBuilder(String... parametros){
     String query = "";
-    StringBuilder sb = new StringBuilder("SELECT new co.com.hobbies.jpa.model.SesionDTO(");
+    StringBuilder sb = new StringBuilder("SELECT new co.com.hobbies.model.SesionDTO(");
     for (String parametro : parametros) {
       sb.append(parametro);
       sb.append(", ");
