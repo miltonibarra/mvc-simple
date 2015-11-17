@@ -1,0 +1,24 @@
+package co.com.hobbies.servicios;
+
+import java.util.List;
+
+import org.springframework.context.ApplicationContext;
+
+import co.com.hobbies.model.SesionDTO;
+import co.com.hobbies.services.HobbiesFacade;
+
+/**
+ * Recuperar la informacion de los objetos sesion que se muestran en la pantalla
+ * 
+ * @author Milton
+ */
+public class SesionServicesImplLocal implements SesionServicesInterface {
+
+	private ApplicationContext context;
+
+	public List<SesionDTO> getSesiones() {
+	  HobbiesFacade hobbiesFacade = new HobbiesFacade();
+    List<SesionDTO> sesionDTOList = hobbiesFacade.getFirstSesionDTOFromIndex();
+    return sesionDTOList;
+  }
+}

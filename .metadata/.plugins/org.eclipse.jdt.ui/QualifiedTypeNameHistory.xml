@@ -42,7 +42,17 @@
 <fullyQualifiedTypeName name="co.com.hobbies.jdbc.model.SesionDTO"/>
 <fullyQualifiedTypeName name="co.com.hobbies.dao.SesionDAO"/>
 <fullyQualifiedTypeName name="javax.swing.text.html.ListView"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="javax.ws.rs.GET"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="co.com.hobbies.services.HobbiesFacade"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="co.com.hobbies.model.SesionDTO"/>
-<fullyQualifiedTypeName name="co.com.hobbies.services.HobbiesFacade"/>
+<fullyQualifiedTypeName name="com.google.gson.Gson"/>
+<fullyQualifiedTypeName name="com.sun.jersey.api.client.Client"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Response"/>
+<fullyQualifiedTypeName name="javax.ws.rs.POST"/>
 </qualifiedTypeNameHistroy>

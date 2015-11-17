@@ -1,0 +1,9 @@
+package co.com.hobbies.services;
+
+public class HobbiesWS {
+  
+  public void getFirstSesionDTOFromIndex() {
+    
+  }
+
+}

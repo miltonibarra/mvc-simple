@@ -1,0 +1,15 @@
+package co.com.hobbies.services;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+@Path("/json/hobbies")
+public class HobbiesWS {
+  
+  @GET
+  @Path("/sesion")
+  public void getFirstSesionDTOFromIndex() {
+    
+  }
+
+}

@@ -14,10 +14,9 @@ public class SesionController {
 	@RequestMapping(value = "/sesion", method = RequestMethod.GET)
 	public ModelAndView inicioSesiones() {
 		
-		/* Invocar el servicio. **/
-		SesionServicesInterface rSesion = new SesionServicesImplLocal();
-		
-		ModelAndView modelAndView = new ModelAndView("index", "sesionobj", rSesion.getSesiones());
+		/* Invocar el servicio. */
+		SesionServicesInterface sesionServices = new SesionServicesImplLocal();
+		ModelAndView modelAndView = new ModelAndView("index", "sesionobj", sesionServices.getSesiones());
 		return modelAndView;
 	}
 

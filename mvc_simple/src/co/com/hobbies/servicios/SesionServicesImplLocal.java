@@ -1,15 +1,15 @@
 package co.com.hobbies.servicios;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import co.com.hobbies.dao.SesionDAO;
-import co.com.hobbies.jpa.entities.Sesion;
 import co.com.hobbies.model.SesionDTO;
 import co.com.hobbies.services.HobbiesFacade;
+
+import com.google.gson.Gson;
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.WebResource;
+
 
 /**
  * Recuperar la informacion de los objetos sesion que se muestran en la pantalla
@@ -18,47 +18,63 @@ import co.com.hobbies.services.HobbiesFacade;
  */
 public class SesionServicesImplLocal implements SesionServicesInterface {
 
-	private ApplicationContext context;
-
-//	public List<SesionDTO> getSesiones() {
-//
-//		context = new ClassPathXmlApplicationContext("Spring-Module.xml");
-//
-//		// Se obtiene el servicio que implementa los servicios de la base de
-//		// datos
-//		SesionDAO sesionDAO = (SesionDAO) context.getBean("sesionDAO");
-//
-//		// Crear la lista con los DTO
-//		List<SesionDTO> sesionList = new ArrayList<SesionDTO>();
-//		List<Sesion> sesions = sesionDAO.getSesionList();
-//		for (Sesion sesion : sesions) {
-//			// Creando un objeto de la lista de tipo sesionDTO
-//			SesionDTO sesionDTO = new SesionDTO();
-//			sesionDTO.setTitulo(sesion.getTitulo());
-//			sesionDTO.setImagen(sesion.getImagen());
-//			// Adicionando el objeto a la lista
-//			sesionList.add(sesionDTO);
-//		}
-//		return sesionList;
-//	}
-	
-	public List<co.com.hobbies.jdbc.model.SesionDTO> getSesiones() {
-
-	  
-	  HobbiesFacade hobbiesFacade = new HobbiesFacade();
-	  
+  public List<SesionDTO> getSesiones() {
+    HobbiesFacade hobbiesFacade = new HobbiesFacade();
     List<SesionDTO> sesionDTOList = hobbiesFacade.getFirstSesionDTOFromIndex();
-    
-    // Crear la lista con los DTO
-    List<co.com.hobbies.jdbc.model.SesionDTO> sesionList = new ArrayList<co.com.hobbies.jdbc.model.SesionDTO>();
-    
-    for (SesionDTO sesionDTO : sesionDTOList) {
-      co.com.hobbies.jdbc.model.SesionDTO sesionDTOJDBC = new co.com.hobbies.jdbc.model.SesionDTO();
-      sesionDTOJDBC.setTitulo(sesionDTO.getTitulo());
-      sesionDTOJDBC.setImagen(sesionDTO.getImagen());
-      sesionList.add(sesionDTOJDBC);
-    }
+    return sesionDTOList;
+  }
 
-    return sesionList;
+  // Metodo para probar los clientes
+  public static void main(String args[]) {
+    getMethod();
+    
+    postMethod();
+  }
+
+  private static void getMethod() {
+    try {
+      // Construye el cliente web
+      Client client = Client.create();
+      WebResource webResource = client.resource("http://localhost:8080/mvc_ws/rest/json/hobbies/sesion");
+      
+      // Envia la peticion al WS y obtiene la respuesta
+      ClientResponse response = webResource.accept("application/json").get(ClientResponse.class);
+      if (response.getStatus() != 200) {
+        throw new RuntimeException("Failed : HTTP error code : " + response.getStatus());
+      }
+
+      // Se procesa la respuesta
+      String output = response.getEntity(String.class);
+      System.out.println("Output from Server .... \n");
+      System.out.println(output);
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
+  
+  private static void postMethod() {
+    try {
+      // Construye el cliente web
+      Client client = Client.create();
+      WebResource webResource = client.resource("http://localhost:8080/mvc_ws/rest/json/hobbies/post");
+
+      // Parse de DTO a JSON
+      SesionDTO sesionDTO = new SesionDTO("Entretenimiento", "resources/img/portfolio/entretenimiento.jpg");
+      Gson gson = new Gson();
+      String json = gson.toJson(sesionDTO, SesionDTO.class);      
+      
+      // Envia la peticion al WS y obtiene la respuesta
+      ClientResponse response = webResource.type("application/json").post(ClientResponse.class, json);
+      if (response.getStatus() != 201) {
+        throw new RuntimeException("Failed : HTTP error code : " + response.getStatus());
+      }
+      
+      // Se procesa la respuesta
+      String output = response.getEntity(String.class);
+      System.out.println("Output from Server .... \n");
+      System.out.println(output);
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
   }
 }

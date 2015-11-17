@@ -1,0 +1,70 @@
+package co.com.hobbies.servicios;
+
+import java.util.List;
+
+import co.com.hobbies.model.SesionDTO;
+import co.com.hobbies.services.HobbiesFacade;
+
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.WebResource;
+
+
+/**
+ * Recuperar la informacion de los objetos sesion que se muestran en la pantalla
+ * 
+ * @author Milton
+ */
+public class SesionServicesImplLocal implements SesionServicesInterface {
+
+  public List<SesionDTO> getSesiones() {
+    HobbiesFacade hobbiesFacade = new HobbiesFacade();
+    List<SesionDTO> sesionDTOList = hobbiesFacade.getFirstSesionDTOFromIndex();
+    return sesionDTOList;
+  }
+
+  public static void main(String args[]) {
+    getMethod();
+    
+//    postMethod();
+  }
+
+  private static void getMethod() {
+    try {
+      Client client = Client.create();
+      WebResource webResource = client.resource("http://localhost:8080/mvc_ws/rest/json/hobbies/sesion");
+      ClientResponse response = webResource.accept("application/json").get(ClientResponse.class);
+
+      if (response.getStatus() != 200) {
+        throw new RuntimeException("Failed : HTTP error code : " + response.getStatus());
+      }
+
+      String output = response.getEntity(String.class);
+      System.out.println("Output from Server .... \n");
+      System.out.println(output);
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
+  
+  private static void postMethod() {
+    try {
+      Client client = Client.create();
+      WebResource webResource = client.resource("http://localhost:8080/mvc_ws/rest/json/hobbies/sesion_post");
+      
+      String input = "{\"titulo\":\"Entretenimiento\",\"imagen\":\"resources\"}";
+      
+      ClientResponse response = webResource.accept("application/json").post(ClientResponse.class, input);
+
+      if (response.getStatus() != 200) {
+        throw new RuntimeException("Failed : HTTP error code : " + response.getStatus());
+      }
+
+      String output = response.getEntity(String.class);
+      System.out.println("Output from Server .... \n");
+      System.out.println(output);
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+  }
+}

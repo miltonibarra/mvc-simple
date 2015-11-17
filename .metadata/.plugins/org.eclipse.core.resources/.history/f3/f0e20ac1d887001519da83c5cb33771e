@@ -1,0 +1,51 @@
+package co.com.hobbies.services;
+
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+
+import com.google.gson.Gson;
+
+import co.com.hobbies.model.SesionDTO;
+
+@Path("/json/hobbies")
+public class HobbiesWS {
+  
+  @GET
+  @Path("/sesion")
+  @Produces(MediaType.APPLICATION_JSON)
+  public List<SesionDTO> getFirstSesionDTOFromIndex() {
+    
+    HobbiesFacade hobbiesFacade = new HobbiesFacade();
+    List<SesionDTO> sesionList = hobbiesFacade.getFirstSesionDTOFromIndex();
+    
+    // Parse de DTO a JSON
+    Gson gson = new Gson();
+    String json = gson.toJson(sesionList);
+    
+//    return Response.status(201).entity(json).build();    
+    
+    return sesionList;
+  }
+  
+  @POST
+  @Path("/sesion_post")
+  @Produces(MediaType.APPLICATION_JSON)
+  public Response getFirstSesionDTOFromIndexPost() {
+    
+    HobbiesFacade hobbiesFacade = new HobbiesFacade();
+    List<SesionDTO> sesionList = hobbiesFacade.getFirstSesionDTOFromIndex();
+    
+    // Parse de DTO a JSON
+    Gson gson = new Gson();
+    String json = gson.toJson(sesionList);
+    
+    return Response.status(201).entity(json).build();       
+  }
+
+}

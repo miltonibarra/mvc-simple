@@ -4,6 +4,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="ws_ejemplo"/>
 			<item value="mvc_common"/>
 			<item value="mvc_jpa"/>
 			<item value="mvc_jdbc"/>
@@ -11,6 +12,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="ws_ejemplo"/>
 			<item value="mvc_common"/>
 			<item value="mvc_jpa"/>
 			<item value="mvc_jdbc"/>
@@ -44,8 +46,8 @@
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
 		<item value="480" key="width"/>
-		<item value="800" key="x"/>
-		<item value="177" key="y"/>
+		<item value="1470" key="x"/>
+		<item value="126" key="y"/>
 		<item value="557" key="height"/>
 	</section>
 	<section name="MavenProjectImportWizardPage">
@@ -72,11 +74,15 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="mvc_ws"/>
+			<item value="ws_ejemplo"/>
 			<item value="mvc_simple"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="mvc_ws"/>
+			<item value="ws_ejemplo"/>
 			<item value="mvc_simple"/>
 		</list>
 		<list key="version">

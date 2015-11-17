@@ -2,5 +2,6 @@
 <aop-reference-model>
 <aop-project name="mvc_jdbc"/>
 <aop-project name="mvc_simple"/>
+<aop-project name="mvc_ws"/>
 <aop-project name="mvc_jpa"/>
 </aop-reference-model>
